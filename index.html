@@ -1,28 +1,101 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hardik Vala</title>
-</head>
-<body style="text-align: center;">
-  <header>
-    <h1>Hardik Vala</h1>
-  </header>
-  
-  <main>
-		<img src="assets/headshot.jpeg" alt="Hardik Vala" style="width: 250px; height: auto;">
-		<p>I'm ex-YC, ex-Area 120 (Google's startup incubator), ex-Google, and ex-Apple.</p>
-		<p>I'm a founder in progress. Currently in hiding, scheming on my next startup.</p>
-		<p style="display: flex; gap: 20px; justify-content: center">
-		  <a href="https://www.linkedin.com/in/thehardikv"><img src="assets/linkedin_icon.png" alt="LinkedIn" style="width: 25px; height: auto;"></a>
-			<a href="https://bsky.app/profile/therealhardik.bsky.social">BlueSky</a>
-			<a href="https://twitter.com/Tyrone_24"><img src="assets/x_icon.png" alt="X" style="margin: 3px; width: 20px; height: auto;"></a>
-    </p>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 Hardik Vala</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardik Vala</title>
+  </head>
+
+  <body style="display: flex">
+    <main
+      style="
+        flex: 1;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        "
+      >
+        <div>
+          <h1 style="text-align: center">Hardik Vala</h1>
+
+          <img
+            src="assets/headshot.jpeg"
+            alt="Hardik Vala"
+            style="width: 250px; height: auto; display: block; margin: 0 auto"
+          />
+
+          <p style="text-align: center">
+            I'm ex-YC (S23), ex-Area 120 (Google's startup incubator),
+            ex-Google, and ex-Apple. I'm a founder in progress. Currently in
+            hiding, scheming on my next startup.
+          </p>
+
+          <div
+            style="
+              display: flex;
+              gap: 20px;
+              justify-content: center;
+              margin-top: 25px;
+            "
+          >
+            <a href="https://www.linkedin.com/in/thehardikv">
+              <img
+                src="assets/linkedin_icon.png"
+                alt="LinkedIn"
+                style="width: 25px; height: auto"
+              />
+            </a>
+            <a href="https://bsky.app/profile/therealhardik.bsky.social"
+              >BlueSky</a
+            >
+            <a href="https://twitter.com/Tyrone_24">
+              <img
+                src="assets/x_icon.png"
+                alt="X"
+                style="margin: 3px; width: 20px; height: auto"
+              />
+            </a>
+          </div>
+        </div>
+        <footer style="text-align: center; margin-top: 25px">
+          <p>&copy; 2023 Hardik Vala</p>
+        </footer>
+      </div>
+    </main>
+
+    <aside
+      style="
+        flex: 2;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        border-left: 1px solid #ddd;
+      "
+    >
+      <h2>Side-Projects</h2>
+      <ul>
+        <li>
+          <a href="https://chat.openai.com/g/g-cA770mkRY-diarygpt">DiaryGPT</a>
+          (<a href="https://github.com/hardik-vala/DiaryGPT">source</a>) -
+          Custom GPT that puts journalling on steroids. Feels more like talking
+          to an empathic friend than writing into a void so self-reflection
+          becomes a better tool for self-improvement.
+        </li>
+      </ul>
+      <h2>Publications</h2>
+      <a href="https://scholar.google.com/citations?hl=en&user=H9OOczIAAAAJ"
+        >Google Scholar</a
+      >
+    </aside>
+  </body>
 </html>
