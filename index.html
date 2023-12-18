@@ -8,26 +8,29 @@
     <title>Hardik Vala</title>
     <style>
       body {
+        background-color: #ddd;
+        color: #111;
         font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
 
-  <body style="display: flex">
-    <main
+  <body>
+    <div
       style="
-        flex: 1;
-        padding-bottom: 15px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 800px;
       "
     >
-      <div
+      <main
         style="
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
+          flex: 1;
+          padding-bottom: 15px;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-top: 15px;
         "
       >
         <div>
@@ -72,37 +75,40 @@
             </a>
           </div>
         </div>
-        <footer style="text-align: center; margin-top: 25px">
-          <p>&copy; 2023 Hardik Vala</p>
-        </footer>
-      </div>
-    </main>
+      </main>
 
-    <aside
-      style="
-        flex: 2;
-        padding-bottom: 15px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 15px;
-        border-left: 1px solid #ddd;
-      "
-    >
-      <h2>Side-Projects</h2>
-      <ul>
-        <li>
-          <a href="https://chat.openai.com/g/g-cA770mkRY-diarygpt">DiaryGPT</a>
-          (<a href="https://github.com/hardik-vala/DiaryGPT">source</a>) -
-          Custom GPT that puts journalling on steroids. Feels more like talking
-          to an empathic friend than writing into a void so self-reflection
-          becomes a better tool for self-improvement.
-        </li>
-      </ul>
-      <h2>Publications</h2>
-      <a href="https://scholar.google.com/citations?hl=en&user=H9OOczIAAAAJ"
-        >Google Scholar</a
+      <aside
+        style="
+          flex: 2;
+          padding-bottom: 15px;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-top: 15px;
+          border-top: 1px solid #777;
+        "
       >
-      <div style="margin-top: 100px">
+        <div>
+        <h2>Side-Projects</h2>
+        <ul>
+          <li>
+            <a href="https://chat.openai.com/g/g-cA770mkRY-diarygpt"
+              >DiaryGPT</a
+            >
+            (<a href="https://github.com/hardik-vala/DiaryGPT">source</a>) -
+            Custom GPT that puts journalling on steroids. Feels more like
+            talking to an empathic friend than writing into a void so
+            self-reflection becomes a better tool for self-improvement.
+          </li>
+        </ul>
+      </div>
+      <div style="margin-top: 25px;">
+        <h2>Publications</h2>
+        <a href="https://scholar.google.com/citations?hl=en&user=H9OOczIAAAAJ"
+          >Google Scholar</a
+        >
+      </div>
+      </aside>
+      <footer style="text-align: center; margin-top: 25px">
         <p>
           Thinking of buying me a gift? Pick something from my
           <a
@@ -110,7 +116,8 @@
             >wish list</a
           >.
         </p>
-      </div>
-    </aside>
+        <p>&copy; 2023 Hardik Vala</p>
+      </footer>
+    </div>
   </body>
 </html>
