@@ -1,0 +1,28 @@
+- name: DiaryGPT 📓
+  source: https://github.com/hardik-vala/DiaryGPT
+  description: Custom GPT that puts journalling on steroids. Feels more like talking to an empathic friend than writing into a void so self-reflection becomes a better tool for self-improvement.
+  link:
+- name: HisQuery 🔍
+  source: https://github.com/hardik-vala/HisQuery
+  description: A Chrome Extension for efficiently searching your browser history with keyboard shortcuts.
+  link:
+- name: PTM ✅
+  source: https://github.com/hardik-vala/PTM
+  description: My personal task management system with Streamlit app for custom stats and views.
+  link:
+- name: yass 🔢
+  source: https://github.com/hardik-vala/yass
+  description: Suduko Solver written in Scala.
+  link:
+- name: TreeSum 📁
+  source: https://github.com/hardik-vala/TreeSum
+  description: VSCode extension that smartly summarizes files and folders in a workspace.
+  link: https://marketplace.visualstudio.com/items?itemName=thehardik.treesum
+- name: Namegen 1 🦄
+  source: https://github.com/hardik-vala/unicorn-namegen
+  description: Company name generator powered by a character-level language model.
+  link: https://huggingface.co/spaces/hardik-vala/namegen-1
+- name: Strengthsheet 🏋️
+  source: https://github.com/hardik-vala/strengthsheet
+  description: A React-Native + NodeJs + Mongodb fitness app that's extremely customized for my personal workout tracking needs.
+  link:
