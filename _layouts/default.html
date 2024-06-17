@@ -9,6 +9,9 @@
   {% feed_meta %}
   {% seo %}
   <title>{{ page.title }}</title>
+  {% if site.google_analytics_tracking_id and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 
 <body>

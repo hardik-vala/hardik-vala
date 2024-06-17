@@ -1,3 +1,5 @@
+google_analytics_tracking_id: G-8RE7HGEK2Y
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
