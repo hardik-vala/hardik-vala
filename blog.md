@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog | Hardik Vala
+title: Blog
 ---
 
 # Blog
