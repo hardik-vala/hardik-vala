@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Can any company become a unicorn? 🦄
-draft: true
+draft: false
 ---
 
 I find myself constantly mulling over this question. Even though it's impossible to prove or disprove! It's an important question because it does have subtle implications on how you steer a company. And for those who are wandering space-time for a startup idea, it does affect how selective you are. If you believe that plenty of unicorns are waiting to be found, you'll be less picky about where you start.
@@ -82,7 +82,7 @@ The discount factor, $$\gamma$$ essentially captures how much a company values t
 
 ### Cash Balance
 
-When you unpack a company's balance sheet (a company's "state" in our framework), a key component is the cash balance, $$s = {B, ...}$$. It's the health bar of the business, and it can withstand damage or it can accrue health points, but if it ever drops to 0, then the business becomes insolvent. This marks the death of the company and it ceases to exist in the state machine. The growth or depletion rate ($$\sigma$$) in cash reserves can heavily influence whether a company is veering towards or away from death. Take WeWork as a cautionary tale. Even though it survived, a period of irresponsible spending in aggressive expansion and extravagant purchases (eg. upscale interior designs, lavish employee perks) contributed to a loss in investor confidence (huge dip in $$\delta$$), and ultimately its failed IPO in 2019. And its struggled ever since.
+When you unpack a company's balance sheet (a company's "state" in our framework), a key component is the cash balance, $$s = \{B, ...\}$$. It's the health bar of the business, and it can withstand damage or it can accrue health points, but if it ever drops to 0, then the business becomes insolvent. This marks the death of the company and it ceases to exist in the state machine. The growth or depletion rate ($$\sigma$$) in cash reserves can heavily influence whether a company is veering towards or away from death. Take WeWork as a cautionary tale. Even though it survived, a period of irresponsible spending in aggressive expansion and extravagant purchases (eg. upscale interior designs, lavish employee perks) contributed to a loss in investor confidence (huge dip in $$\delta$$), and ultimately its failed IPO in 2019. And its struggled ever since.
 
 For early-stage startups, managing cash is so important. Many are probably operating with negative cash flow so they need to strike PMF before the timer runs out. Negative returns are a reflection of an un-workable business model, and can diminish a team's ability to fundraise ($$\delta$$), thereby reducing optionality in state movements. Escaping this rut means nailing PMF and the best way to do that is by increasing the number of "shots on goal." The more quality attempts a company can take at hitting PMF, the more likely it will succeed. So the number of hypotheses you can afford to test is a good way to thinking about cash in a pre-PMF startup. A highly-capable team can sustain a high rate of execution (high $$\alpha$$), and iterate through more hypotheses, outpacing burn, until they find PMF.  
 
@@ -104,8 +104,13 @@ In other words, *is there always a traverable path from any starting state, $$s_
 
 It's totally conjecture, but my belief is that it's true...under certain conditions:
 
-1. The idea state machine is becoming more connected, so more unreachable states can be occupied and more transitions are possible. Put another way, $$p(s', ... | s, ...) > 0$$ for more $$s', s \in S$$.
-1. The rate at which transitions probabilties are growing is exceeding the rate at which those probabilties are dropping. So $$\sum_{s',s}\frac{dp(s'| s)}{dt} > 0$$.
+* The idea state machine is becoming more connected, so more unreachable states can be occupied and more transitions are possible. Put another way, for more $$s', s \in S$$,
+
+$$p(s', ... | s, ...) > 0$$
+
+* The rate at which transitions probabilties are growing is exceeding the rate at which those probabilties are dropping. So,
+
+$$\sum_{s',s}\frac{dp(s'| s)}{dt} > 0$$
 
 Let me clarify, I believe *any* company can become "huge", but not *every* company. We live in a universe with finite resources and as entities in an economy, you and I are competing for those resources to put towards activities we deem most valuable. 
 
@@ -125,7 +130,7 @@ How do we know the idea state machine is trending bigger and denser? Here's my s
 
 How do we reconcile the paradox between this theoretical argument and the observation that proportionally, so few companies ever become unicorns? 
 
-As I mentioned earlier, limitation on economic resources plays a role. But our existing vehicles for financing startups impose expectations that limit how much of the state machine can be explored. Institutional VC's typically have a decade-long investment horizon for many of their funds, and so a startup is limited to those state transitions that allow it to grow exponentially to a billion dollar valuation in that timeframe, which frankly, may not always exist. That necessitates a growth rate of ~6x (which is what you get when you solve for $$x$$ in $$100000000 = x^10$$). Even inside of the complex and vibrant state machine underpinning our economy, such exponential growth curves are rare. That's why the many breakout successes we've seen in recent decades occurred on the back of gigantic waves. Startups like Airbnb and Dropbox were able to find and attach themselves to a single high-growth S-curve, and exploit it fully. But as a founder, you're not limited to a single S-curve. Other companies, like OpenAI, took a more squiggly route through the state machine, continually launching new products and finding smaller S-curves that they can stack together to exceed the billion-dollar market cap. 
+As I mentioned earlier, limitation on economic resources plays a role. But our existing vehicles for financing startups impose expectations that limit how much of the state machine can be explored. Institutional VC's typically have a decade-long investment horizon for many of their funds, and so a startup is limited to those state transitions that allow it to grow exponentially to a billion dollar valuation in that timeframe, which frankly, may not always exist. That necessitates a growth rate of ~6x (which is what you get when you solve for $$x$$ in $$100000000 = x^{10}$$). Even inside of the complex and vibrant state machine underpinning our economy, such exponential growth curves are rare. That's why the many breakout successes we've seen in recent decades occurred on the back of gigantic waves. Startups like Airbnb and Dropbox were able to find and attach themselves to a single high-growth S-curve, and exploit it fully. But as a founder, you're not limited to a single S-curve. Other companies, like OpenAI, took a more squiggly route through the state machine, continually launching new products and finding smaller S-curves that they can stack together to exceed the billion-dollar market cap. 
 
 Outside of venture financing, you can find examples of companies that took their time navigating the state machine. Nintendo began as a playing card company in the late 19th century and slowly evolved through various industries including toys and eventually, video games. Their journey through the state machine reflects a series of iterative transitions, each building upon the last, and still exponential in nature. However, unlike startups following the venture-backed, rapid-growth model, Nintendo's path allowed for gradual exploration and adaptation over decades.
 
@@ -133,7 +138,7 @@ Nevertheless, I believe there's an ample supply of exponential growth curves lur
 
 ### Locus of Control
 
-Shifting the locus of control to founders is a subtle theme you may have noticed. The environment around a business is inherently over-powering, and there's very little influence even large corporations can exert. But I believe founders have more control over the destiny then some may assume. If the state machine is adding more edges, and more of them are becoming viable, then attaining success is simply a matter of choosing the right path and crossing it. That's within the control of founders. So although execution isn't "everything", its role in today's idea maze has never been greater.
+Shifting the locus of control to founders is a subtle theme you may have noticed. The environment around a business is inherently over-powering, and there's very little influence even large corporations can exert. But I believe founders have more control over the destiny of their company then many realize. If the state machine is adding more edges, and more of them are becoming viable, then attaining success is simply a matter of choosing the right path and crossing it. That's within the control of founders. So although execution isn't "everything", its role in today's idea maze has never been greater.
 
 ## Conclusion
 
