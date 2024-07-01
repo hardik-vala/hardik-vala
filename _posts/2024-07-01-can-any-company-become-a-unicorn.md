@@ -146,4 +146,4 @@ I know what you're thinking, *so what?* This might be interesting philosophicall
 
 Disclaimer: I'm a proto-founder, and I've never seen or been part of the full startup movie from the inside--beginning to end. So these musings come are derived from some lived experience, but also my ongoing study of business history.
 
-If you have any counter-examples or suggestions, send them my way. I'm always looking for ways to improve my mental models.
+If you have any counter-arguments or suggestions, send them my way. I'm always looking for ways to improve my mental models.
