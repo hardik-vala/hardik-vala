@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Can any company become a unicorn? 🦄
-draft: false
+draft: true
 ---
 
 I find myself constantly mulling over this question. Even though it's impossible to prove or disprove! It's an important question because it does have subtle implications on how you steer a company. And for those who are wandering space-time for a startup idea, it does affect how selective you are. If you believe that if plenty of unicorns are waiting to be found, you'll be less picky about the entrypoint.
