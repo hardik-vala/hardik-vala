@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Principles for going -1 to 0 ➡️
-draft: true
+draft: false
 ---
 
 ## tl;dr
