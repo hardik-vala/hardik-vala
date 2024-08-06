@@ -102,7 +102,7 @@ main h1 {
   text-decoration: underline;
 }
 
-.post-draft-chip {
+.blog-post-li-draft-chip {
   background-color: #ccc;
   border-radius: 8px;
   color: black;
@@ -113,6 +113,17 @@ main h1 {
   padding: 4px 8px;
   text-transform: uppercase; 
 }
+
+.post-draft-chip {
+  background-color: #ccc;
+  border-radius: 8px;
+  color: black;
+  display: inline-block;
+  font-size: 24px;
+  padding: 4px 8px;
+  text-transform: uppercase; 
+}
+
 
 .post-date {
   font-size: larger;
