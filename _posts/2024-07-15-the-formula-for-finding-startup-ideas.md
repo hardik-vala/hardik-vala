@@ -9,7 +9,7 @@ draft: false
 ## tl;dr
 
 * The equal-odds rule states that the number of creative successes correlates to the total number of works created. So more ideas increase your chances of finding great startup opportunities.
-* So to find plenty of startup ideas, become a prolific problem-spotter using the formula: *External Stimuli x Prepared Mind = Ideas*.
+* To find plenty of startup ideas, become a prolific problem-spotter using the formula: *External Stimuli x Prepared Mind = Ideas*.
 * Maximize external stimuli by consuming content, talking to lots of people, engaging online, and seeking new experiences.
 * Prepare your mind by developing mental defenses against biases and expanding your awareness of possible solutions.
 * Commit to a daily idea quota (e.g. 5 problems noticed per day) and log them without self-editing.
