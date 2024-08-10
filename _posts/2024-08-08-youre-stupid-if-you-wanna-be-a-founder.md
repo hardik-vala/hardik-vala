@@ -96,7 +96,7 @@ When you ask military veterans what they miss about service, a lot of them will 
 
 Startups pale in comparison to the difficulty and stakes of military duty. But there's some resemblance. When you're trying to will the growth of your startup, everyday feels like a battle. And the only way you get through each day is with the help and support of co-founders and a wider community of fellow founders, who share the same experiences, purpose, culture, and values. Nobody else can really empathize with what life is like in the trenches, and there often isn't anybody else you can rely on.
 
-Some of my most cherished relationships have been forged in the fires of building companies. And I can't think of a better community that gives me a sense of acceptance and belonging. The familial-like closeness gives me a foundation to work hard on my startup everyday, and take bold risks.
+Some of my most cherished relationships have been forged in the fires of building companies. And I can't think of a better community that gives me a sense of acceptance and belonging. The familial closeness gives me a foundation to work hard on my startup everyday, and take bold risks.
 
 ### 6) Adventure
 
