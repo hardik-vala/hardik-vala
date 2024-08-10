@@ -107,6 +107,17 @@ main h1 {
   font-weight: lighter;
 }
 
+.blog-post-li-date-chip {
+  background-color: #222;
+  border-radius: 8px;
+  color: #bbb;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 12px;
+  padding: 4px 8px; 
+}
+
 .blog-post-li-draft-chip {
   background-color: #ccc;
   border-radius: 8px;
