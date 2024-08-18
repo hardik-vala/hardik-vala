@@ -6,17 +6,26 @@ title: Blog
 <h1>Blog ✍️</h1>
 
 <div class="blog-container">
-  <h2 class="essay-header">Essays</h2>
+  <!-- <h2 class="essay-header">Essays</h2> -->
   <ul>
     {% for post in site.posts %}
     <li>
       <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {% if post.draft %}
-        <span class="blog-post-li-draft-chip">Draft</span>
-        {% else %}
-        <span class="blog-post-li-date-chip">{{ post.date | date: "%b, %Y" }}</span>
-        {% endif %}
+        <div class="blog-post-li-container">
+          <a class="blog-post-li-title" href="{{ post.url }}">{{ post.title }}</a>
+          <div class="blog-post-li-chips-container">
+            {% if post.draft %}
+            <span class="blog-post-li-draft-chip">Draft</span>
+            {% else %}
+            <span class="blog-post-li-chip">{{ post.date | date: "%b, %Y" }}</span>
+            <span class="blog-post-li-chip">
+              {% assign words = post.content | number_of_words %}
+              {% assign read_time = words | divided_by: 200 | plus: 1 %}
+              {{ read_time }} min
+            </span>
+            {% endif %}
+          </div>
+        </div>
       </h3>
     </li>
     {% endfor %}

@@ -98,23 +98,32 @@ main h1 {
   text-align: left;
 }
 
-.blog-container h3 {
-  text-decoration: underline;
-}
-
 .essay-header {
   color: #ddd;
   font-weight: lighter;
 }
 
-.blog-post-li-date-chip {
+.blog-post-li-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-post-li-title {
+  text-decoration: underline;
+}
+
+.blog-post-li-chips-container {
+  margin-left: 10px;
+}
+
+.blog-post-li-chip {
   background-color: #222;
   border-radius: 8px;
   color: #bbb;
   display: inline-block;
   font-size: 16px;
   font-weight: lighter;
-  margin-left: 12px;
+  margin-left: 2px;
   padding: 4px 8px; 
 }
 
@@ -125,7 +134,7 @@ main h1 {
   display: inline-block;
   font-size: 16px;
   font-weight: lighter;
-  margin-left: 12px;
+  margin-left: 2px;
   padding: 4px 8px;
   text-transform: uppercase; 
 }
