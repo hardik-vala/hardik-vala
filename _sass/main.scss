@@ -124,7 +124,7 @@ main h1 {
   font-size: 16px;
   font-weight: lighter;
   margin-left: 2px;
-  padding: 4px 8px; 
+  padding: 4px 8px;
 }
 
 .blog-post-li-draft-chip {
@@ -136,7 +136,7 @@ main h1 {
   font-weight: lighter;
   margin-left: 2px;
   padding: 4px 8px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .post-draft-chip {
@@ -146,9 +146,8 @@ main h1 {
   display: inline-block;
   font-size: 24px;
   padding: 4px 8px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
-
 
 .post-date {
   font-size: larger;
@@ -248,6 +247,7 @@ main h1 {
 }
 
 /* Newsletter Styles */
+
 .newsletter {
   background-color: #000;
   border: 1px solid #fff;
@@ -301,6 +301,7 @@ main h1 {
 }
 
 /* Footer Styles */
+
 footer {
   background-color: #000;
   padding: 20px;
