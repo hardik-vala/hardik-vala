@@ -13,6 +13,10 @@ body {
 .body-container {
   justify-content: left;
   width: 60%;
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
 }
 
 a {
