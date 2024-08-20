@@ -17,7 +17,7 @@ title: Blog
             {% if post.draft %}
             <span class="blog-post-li-draft-chip">Draft</span>
             {% else %}
-            <span class="blog-post-li-chip">{{ post.date | date: "%b, %Y" }}</span>
+            <span class="blog-post-li-chip">{{ post.date | date: "%b %d, %Y" }}</span>
             <span class="blog-post-li-chip">
               {% assign words = post.content | number_of_words %}
               {% assign read_time = words | divided_by: 200 | plus: 1 %}
