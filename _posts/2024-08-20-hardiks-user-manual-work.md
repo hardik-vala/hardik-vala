@@ -38,17 +38,18 @@ Emphasis on "living". I'm putting this out to the world but know I am--and aim t
 
 ### Weekly
 
-* I work 6 days a week, Sunday through Friday.
+* I work 6 days a week, Sunday through Friday. I end up working 60-70 hours per week, which I can sustain indefinitely.
 
 ### Flex time
 
 * I accept that work is non-linear as a founder so I'm willing to adapt my schedule to pressing demands.
-* Saturdays are my flex days, which I usually protect for R&R. Or I'll work at a casual pace. I go by feel. But if needed, I can work through a Saturday.
+* Saturdays are my flex days, which I usually protect for R&R. Or I'll work at a casual pace or engage in "big picture" thinking. I go by feel. But if needed, I can work through a Saturday.
 * Other flex time: One weekend a month, one week a quarter -- Scheduled around milestones / sprints.
 
 ### Work-life balance
 
-My thoughts on this subject are explained [here](https://hardikvala.com/2024/08/19/work-life-harmony.html).
+* My beliefs on this subject are explained [here](https://hardikvala.com/2024/08/19/work-life-harmony.html).
+* Working 70+ hours per week means sacrificing those other areas of my life that serve the long-term. These sorts of sprints are expected but difficult to continue for more than a few weeks without addressing the life debt that piles up.
 
 ### Style
 
