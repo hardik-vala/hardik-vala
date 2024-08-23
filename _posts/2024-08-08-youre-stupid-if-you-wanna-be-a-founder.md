@@ -104,7 +104,16 @@ Some of my most cherished relationships have been forged in the fires of buildin
 
 ### 7) Underdog
 
-...
+Looking back through my career, I had to be an underdog first to breed the hunger I needed to eventually excel.
+
+* I failed my first ever college course in computer programming so I decided to major in CS and graduate in the top 10% of my class.
+* I flubbed my first university research project so I decided to enrol in graduate studies in NLP and ended up publishing at tier-1 conferences.
+* I tanked all of my first FAANG interviews, so I became an ML engineer at Apple. Then an ML engineer at Google.
+* At Google, my incubator project was cancelled, and my team was fired, so I launched my first startup in 2023 and got accepted into YC.
+
+I'm the type of person who can work at peak capacity only after suffering some setbacks. When people around me doubt I can actually win. There's a deep satisfication that comes from proving my chief haters--and myself--wrong about my presumed limits.
+
+My [YC startup](https://hardikvala.com/2024/07/08/my-first-startup-the-post-mortem.html) went bust after the batch ended, and that has gifted me a big chip on my shoulder. If history is any indication, it means I'm now destined to succeed.
 
 ### 8) Pain
 
