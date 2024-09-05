@@ -17,8 +17,12 @@ People get frustrated when they ask me about my opinion about something because 
 *Who do you think is better, Lebron or Kobe?*
 *Is the dress blue and black, or white and gold?* (I guess I do have an opinion here: white and gold)...
 
-Most of the time, my answer is, "I don't know". Well actually, I respond with questions. I'm under-informed about a vast array of topics so I ask questions to learn. But whether its about speculating on current political issues, the impact of emerging technologies, or pop culture debates, I keep my opinions and beliefs to a minimum. 
+Most of the time, my answer is, "I don't know". Well actually, I respond with questions. I'm under-informed about a vast array of topics so I ask questions to learn. Because I'm very curious in general. But whether its about speculating on current political issues, the impact of emerging technologies, or pop culture debates, I keep my opinions and beliefs to a minimum. 
 
 Between our ears sits a biological neural network with 80-90 billion parameters, a number that's relatively stable for each of us throughout our lives. Connections between neurons are fluid but for the most part, our cognitive capacity is constant. So I carefully curate the information I allow into my network, and what eventually gets stored. Otherwise, I suffer from cognitive and emotional dysfunction from caring about too many things. To put it bluntly, I have a limited budget for how many fucks I can give, so I try to allocate my fucks to what matters most (to me).
 
 With this piece, I'm going to explain the design choices underlying my belief architecture: How I select things that matter, and form beliefs about them. It's based on a philosophy of minimalism that has helped me control my information intake, reduce mental clutter, and cultivate focus.
+
+## Belief selection
+
+Picking what matters to me enough to form an opinion is based on two criteria: (1) does it impact people I value and (2) can I have an impact. When something rises to the level where it satisfies both, then it warrants my time to develop an understanding and perspective. These mechanisms give me a way to focus and prioritize thoughts effectively, but I'll admit, its incredibly imperfect. It takes continual practice and discipline. And I've regularly failed. Nevertheless, its been an invaluable framework.
