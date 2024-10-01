@@ -143,24 +143,29 @@ main h1 {
   text-transform: uppercase;
 }
 
+.post-container {
+  font-family: "Literata", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
 .post-draft-chip {
   background-color: #ccc;
   border-radius: 8px;
   color: black;
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  padding: 4px 8px;
+  padding: 8px;
   text-transform: uppercase;
 }
 
 .post-date {
+  color: #888;
   font-size: larger;
-  font-weight: lighter;
 }
 
 .post-content {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   line-height: 2;
   padding: 50px 0;
   text-align: left;
@@ -172,18 +177,32 @@ main h1 {
 
 .post-content h2 {
   font-size: 32px;
-  font-weight: lighter;
 }
 
 .post-content h3 {
   font-size: 24px;
-  font-weight: lighter;
 }
 
 .post-content img {
   max-width: 100%;
   height: auto;
   padding: 15px 0;
+}
+
+hr {
+  margin-top: 35px;
+}
+
+blockquote {
+  border-left: 2px solid #fff;
+  margin: 0 5px;
+  padding: 0.25em 15px;
+  font-style: italic;
+  color: #ccc;
+}
+
+blockquote p {
+  display: inline;
 }
 
 /* Code Styles */
