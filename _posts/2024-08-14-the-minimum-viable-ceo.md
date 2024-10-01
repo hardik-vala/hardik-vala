@@ -19,6 +19,8 @@ Many traditional CEO responsibilities (vision-setting, recruiting, culture-build
 
 This minimal approach keeps the startup agile, and lets the CEO focus on the most pressing priorities.
 
+***
+
 ## Intro
 
 If you ask 10 founders what a CEO is supposed to do in a pre-PMF startup, you'll get 15 different answers. There's no clear explanation because it depends on the makeup of the founding team and other factors. If you consult the internet, you'll see responsibilities like hire and manage the team, set the vision and strategy, evangelize the company, and preserve the culture. But these are the well-defined duties of a CEO at a mature company / startup. When you're early-stage, you're not executing in the same way most businesses do. You're searching. You're searching for a customer problem, a product, and business model. That's a very different enviroment, that demands a different orientation where agility is paramount.

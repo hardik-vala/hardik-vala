@@ -8,6 +8,10 @@ draft: true
 
 ## tl;dr
 
+...
+
+***
+
 ## Intro
 
 ![98% of startups fail...so you're telling me there's a chance](https://i.imgflip.com/8zdix1.jpg)

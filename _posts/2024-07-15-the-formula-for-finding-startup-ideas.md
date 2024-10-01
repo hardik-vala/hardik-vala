@@ -15,6 +15,8 @@ draft: false
 * Commit to a daily idea quota (e.g. 5 problems noticed per day) and log them without self-editing.
 * Apply this formula consistently for at least a month to build your creative muscle and generate a large volume of potential startup ideas.
 
+***
+
 ## Intro
 
 You're ambitious and you want to start your own business. But you don't know what to work on...

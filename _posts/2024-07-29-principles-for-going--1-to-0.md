@@ -17,6 +17,8 @@ draft: false
 7. **High-quality reps > high-quantity reps.**
 8. **Play loose. Have fun.**
 
+***
+
 ## Intro
 
 In the quest to build a startup, I've already wrote about a systematic method to generate ideas and a user manual for vetting them (coming soon, I promise). These are resources to help you go *-1 to 0* -- From the commotion of everything you *could* do, to the convicted thing you *will* do. But together, they only give you a blueprint. Concepts that are simple in the abstract, but missing nuance that make them hard to put to practice. Day-to-day, you're burdened with tremendous ambiguity. *Where should I start? Should I abandon this idea? This person says this is a shit market, what should I do?*
