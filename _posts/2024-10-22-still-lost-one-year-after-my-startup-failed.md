@@ -1,0 +1,40 @@
+
+---
+layout: post
+title: Still lost, one year after my startup failed 🧭
+draft: true
+---
+
+![Loading next startup...This is taking longer than usual.](/assets/images/loading_next_startup.png)
+
+## Intro
+
+It's been almost a full lap around the sun since my last startup capsized (you can read about that story [here](https://hardikvala.com/2024/07/08/my-first-startup-the-post-mortem.html)). I know it's trite to say, but man, time flew by fast. During this period, I've been toiling away in a corner of San Francisco's startup scene, plotting my revenge company. I wish I could say I'm close to redemption, but the truth is, my repeated attempts at building a new company have been met with failure.
+
+I recently took a trip abroad and was forced to unplug from the grind. I'm back in San Francisco and I'm using my post-vacation clarity to reflect on the last year's worth of experiences. Even though I suffered a drought in professional success, it was a year full of experimentation--you can bet with loads of earned lessons. And I was also lucky enough to claim some wins in other areas of my life.
+
+## Learnings
+
+The things I've done since I shutdown my last startup have been...varied. I've interviewed nearly 100 potential co-founders (even running co-founder "trials" with a handful of them), dove deep into a number of startup ideas, dabbled in content creation (including starting this blog), acted as a consultant, chased the indie hacker lifestyle, entertained founding opportunities with other early-stage startups, and more. I won't do a full inventory of the experiences. Just focus on the key lessons I've gained in the past year.
+
+1) **Focus is a force multiplier**: This is something Sam Altman preaches. This is obviously true for tasks. Always single-task and don't try to multi-task (which is physically impossible), and eliminate distractions (eg. mindlessly scrolling social media). But its also true for life's bigger projects. Instead of juggling multiple priorities at once, selecting just a handful of things (eg. ideas to explore) will allow the returns on your focus to compound, helping you achieve better results faster. (I've given quite a bit of mindshare to the power of focus, and will share more thoughts in a future post.) 
+
+2) **Prepare for the long-term**: Focus can help you shrink a timeline to get to an outcome, but if that outcome is discovering, nurturing, and commercializing an innovation (ie. find PMF), you need to be prepared to make a multi-year commitment. And you probably need to pledge yourself to an industry, domain, or niche for that long because it takes investing over a long period of time to accrue the expertise and network in a field to figure out the problems and solve for them. So when it comes to choosing lines of exploration, I've finally dispensed with the myth of the "quick-win". If I'm not willing to invest at least a year in a market to learn the ins-and-outs, I dismiss that path.
+
+3) **Think first from distribution**: Okay, at this point, every experienced founder is familiar with the meme, "First time founders are obsessed with product. Second time founders are obsessed with distribution." As a battle-tested founder, I know how creatively and emotionally challenging it is to get customers to buy your product. But I've come to respect distribution even more, because I've humbly learned that's even *harder* than I imagined. So much so that going forward, I'm following a *distribution-driven strategy*, choosing customers and opportunities where I have a GTM advantage, instead of simply pouring a lot of effort into building distribution after selecting a market and problem to pursue.
+
+4) **Accept being misunderstood**: I've said "no" a lot this past year. I've turned down CTO offers, consulting roles, and I've even refused customers that weren't the right fit. Many times, my decisions have puzzled those around me. I'm fortunate to know what I value and the person I apsire to become, even if it means occassionally making the hard choice to take the tougher road. Trying to make others understand is its own kind of unhealthy approval-seeking. Instead of relying on everybody's validation, I've learned to simply let the decisions that don't compromise on my values embolden my pursuit, and build my self-esteem. Because, guess what? "No" is a complete sentence.
+
+5) **Every decision is an experiment**: It's a hypothesis to test. Instead of being paralyzed by the fear of making the "wrong" choice, I view each path as an opportunity to learn and gather data. This way, I'm not overally attached to any outcome and "success" if simply about getting more information. Whether it's choosing a new startup idea, a partnership, or a strategy, I approach it with this experiment-driven mindset. There are almost no irreversible decisions at the -1 to 0 stage.
+
+6) **Enforce intentionality**: Even though every decision can be undone when you're in the first inning of your startup journey, doesn't mean you should be thoughtless about what you choose to do. For example, I've been to way too many founder-related socials and networking events where I walked out thinking, "*well, that was a waste of time.*" This could be the subject of its own article one day, but for now, let me tell you that I proactively set intentions, reflect regularly, and apply mindful decision-making about what I activities I invest in.
+
+7) **Who, not (just) how**: When you're a solo founder, it's easy to insulate yourself from others and believe you have to figure everything out yourself. I have to conciously remind myself when facing problems to think of "who" can help, not just "how" I can solve it. That's been a game-changer. So seek advice and seek help. You'd be surprised how much farther that can get you.
+
+8) **This too shall pass**: Yes, the high you feel from winning a business deal, or the despair you feel when a joint venture falls apart, is temporary. The transience of emotions we experience from success or failure is a well-studied phenomenon. So I've learned to align myself more with contentment from the work itself, rather than the outcomes, which is a sustainable source of fuel. 
+
+9) **Choose the journey, not the destination**: I know this is the mother of all platitudes, but I still find myself benefitting from its wisdom. There's so much randomness in building a business, which makes outcomes so unpredictable, even when you make all the right moves. Couple that with the fact that knowing whether you succeed or fail happens years into the future, it's hard not to buckle under the weight of uncertainty. So the way I rescue myself from paralysis is by asking myself, "if I were to fail at this in a few years, would I regret the time I spent?" If the answer is no, then I take action, because across the whole range of possibilities, even the floor would be a personal success. This shift in mentality has help relieve so much pressure and now I relish the day-to-day so much more. But this doesn't mean you shouldn't have a desired objective. You can't have the journey without the destination. Just place the emphasis on the rewards you would get from the journey itself.
+
+## Conclusion
+
+Even though progress has been flat, outwardly speaking, I'm grateful for the considerable amount of personal growth. I'm still lost, but maybe a little less than a year ago. When you're an adventurer looking to find undiscovered lands, you're lost most of the time. But I've never felt more secure in my guiding principles and lessons that serve as my compass. Undeterred, I'm more determined--and excited--than ever for the founder journey ahead.
