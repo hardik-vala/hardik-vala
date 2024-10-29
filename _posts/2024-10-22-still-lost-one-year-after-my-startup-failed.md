@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Still lost, one year after my startup failed 🧭
