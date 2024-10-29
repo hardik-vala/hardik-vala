@@ -10,7 +10,7 @@ draft: true
 
 It's been almost a full lap around the sun since my last startup capsized (you can read about that story [here](https://hardikvala.com/2024/07/08/my-first-startup-the-post-mortem.html)). I know it's trite to say, but man, time flew by fast. During this period, I've been toiling away in a corner of San Francisco's startup scene, plotting my revenge company. I wish I could say I'm close to redemption, but the truth is, my repeated attempts at building a new company have been met with failure.
 
-I recently took a trip abroad and was forced to unplug from the grind. I'm back in San Francisco and I'm using my post-vacation clarity to reflect on the last year's worth of experiences. Even though I suffered a drought in professional success, it was a year full of experimentation--you can bet with loads of earned lessons. And I was also lucky enough to claim some wins in other areas of my life.
+I recently took a trip abroad and was forced to unplug from the grind. I'm back in San Francisco and I'm using my post-vacation clarity to reflect on the last year's worth of experiences. Even though I suffered a drought in professional success, it was a year full of experimentation---you can bet with loads of earned lessons. And I was also lucky enough to claim some wins in other areas of my life.
 
 ## Learnings
 
@@ -36,4 +36,4 @@ The things I've done since I shutdown my last startup have been...varied. I've i
 
 ## Conclusion
 
-Even though progress has been flat, outwardly speaking, I'm grateful for the considerable amount of personal growth. I'm still lost, but maybe a little less than a year ago. When you're an adventurer looking to find undiscovered lands, you're lost most of the time. But I've never felt more secure in my guiding principles and lessons that serve as my compass. Undeterred, I'm more determined--and excited--than ever for the founder journey ahead.
+Even though progress has been flat, outwardly speaking, I'm grateful for the considerable amount of personal growth. I'm still lost, but maybe a little less than a year ago. When you're an adventurer looking to find undiscovered lands, you're lost most of the time. But I've never felt more secure in my guiding principles and lessons that serve as my compass. Undeterred, I'm more determined---and excited---than ever for the founder journey ahead.
