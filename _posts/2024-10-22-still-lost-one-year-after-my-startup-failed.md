@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Still lost, one year after my startup failed 🧭
-draft: true
+draft: false
 ---
 
 ![Loading next startup...This is taking longer than usual.](/assets/images/loading_next_startup.png)
