@@ -4,7 +4,9 @@ title: Still lost one year after my startup failed 🧭
 draft: false
 ---
 
-![Loading next startup...This is taking longer than usual.](/assets/images/loading_next_startup.png)
+<div style="text-align: center">
+  <img src="/assets/images/loading_next_startup.png" alt="Loading next startup...This is taking longer than usual.">
+</div>
 
 ## Intro
 
