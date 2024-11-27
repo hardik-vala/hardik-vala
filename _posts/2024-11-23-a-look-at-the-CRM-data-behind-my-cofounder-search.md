@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A look at the data behind my cofounder search 👀
+title: A look at the CRM data behind my cofounder search 👀
 draft: false
 ---
 
