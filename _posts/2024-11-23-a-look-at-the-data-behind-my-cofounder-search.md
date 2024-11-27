@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A look at the data behind my cofounder search 👀
-draft: true
+draft: false
 ---
 
 ## Intro
