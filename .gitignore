@@ -1,9 +1,14 @@
+.env
+
 # Github
 Gemfile.lock
 
 # Jekyll
 .jekyll-cache
 _site/
+
+# Python
+.venv/
 
 # Sass
 .sass-cache/

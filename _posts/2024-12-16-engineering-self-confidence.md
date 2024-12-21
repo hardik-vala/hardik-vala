@@ -10,7 +10,7 @@ draft: true
 
 ## tl;dr
 
-Confidence isn’t a prerequisite for action--it’s the result of it. Start with the courage to act, follow through with the perseverance to fail and improve, and confidence will inevitably follow.
+Confidence isn’t a prerequisite for action---it’s the result of it. Start with the courage to act, follow through with the perseverance to fail and improve, and confidence will inevitably follow.
 
 ## Intro
 
@@ -32,7 +32,7 @@ In this post, I attempt to distill what I’ve learned into a systematic breakdo
 
 ## What is self-confidence?
 
-We know confidence when we feel it. But the concept is fuzzy and elusive. We can also recognize when others have it--and when they don’t. But almost nobody can pin down a definition.
+We know confidence when we feel it. But the concept is fuzzy and elusive. We can also recognize when others have it---and when they don't. But almost nobody can pin down a definition.
 
 Fortunately, over the last few decades, confidence has been subject to academic rigor. Researchers have studied it, dissected it, and given us a clearer understanding of what it actually is. Here’s one of the best definitions I've come across:
 
@@ -42,7 +42,7 @@ Let's consider a personal example: When I was a graduate student, I was required
 
 Fast forward three months: I had given a dozen or so presentations—most good, some bad, but all valuable for learning. Over time, I demonstrated to myself, a proficiency in public speaking. I fine-tuned a reliable process for preparing my slides, rehearsing my delivery, and anticipating possible questions. The experience I gained allowed me to spot and manage risks ahead of time, like running out of time or recovering after a mis-delivery.
 
-Now, when I step in front of a group of people to speak, I feel confident--not because I'm guaranteed to deliver a flawless presentation, but because I have a realistic expectation of success. I know I’ve done the work, and I trust my ability to adapt if something unexpected comes up. Thanks to demonstrated ability, my competence has caught up with the challenge, and the perceived risk doesn’t feel so overwhelming anymore.
+Now, when I step in front of a group of people to speak, I feel confident---not because I'm guaranteed to deliver a flawless presentation, but because I have a realistic expectation of success. I know I’ve done the work, and I trust my ability to adapt if something unexpected comes up. Thanks to demonstrated ability, my competence has caught up with the challenge, and the perceived risk doesn’t feel so overwhelming anymore.
 
 That is confidence in a nutshell: Given competence, you anticipate success, so you're willing to take the risk.
 
@@ -75,11 +75,11 @@ So that leaves us with a catch 22...*how can I become confident in something if 
 
 ### Courage + Perseverance = Evidence -> Confidence
 
-To overcome the counter-inertia of low self-confidence when facing a new task, you need (1) a dose of courage to first take the risk, and then (2) a dose of perseverance to stick with it long enough to demonstrate performance.
+To overcome the counter-inertia of low self-confidence when facing a new task, you need (1) a dose of courage to first take the risk, and then (2) an IV of perseverance to stick with it long enough to demonstrate performance.
 
 #### Step 1: Courage
 
-Courage is the bridge between hesitation and action. It pushes you past the FUD that comes with stepping outside your comfort zone. Courage doesn’t mean you’re free of fear--it just means you act despite the fear.
+Courage is the bridge between hesitation and action. It pushes you past the FUD that comes with stepping outside your comfort zone. Courage doesn’t mean you’re free of fear---it just means you act despite the fear.
 
 The first time I learned how to swim, ride a bike, or speak in public, my confidence was shaky or non-existent, and I felt terrified. But I gathered just enough courage to take the leap. That initial spark of courage is what gets you moving.
 
@@ -101,11 +101,11 @@ When you lift a heavier weight at the gym, it's more proof that you’re physica
 
 Each time you perform, you add another piece of evidence to your internal “confidence bank.” Over time, this bank grows, and as long as the feedback skews towards positive (which may not always happen), so does your belief in your ability to succeed at an activity.
 
-Now the amount of courage and perseverance you need to muster differs based on the task and your baseline abilities, but the essence of the formula for self-confidence remains the same: Courage + Perseverance = Evidence -> Confidence. There are ways to minimize the barrier to self-confidence--so you need less courage and perseverance, which I'll explore next.
+Now the amount of courage and perseverance you need to muster differs based on the task and your baseline abilities, but the essence of the formula for self-confidence remains the same: Courage + Perseverance = Evidence -> Confidence. There are ways to minimize the barrier to self-confidence---so you need less courage and perseverance, which I'll explore next.
 
 ### Jump-starting self-confidence 
 
-It's easy for me to say "build competence and the confidence will come". It's harder for me to prescribe how to break out of the feelings of low confidence, anxiety, and passivity. There's no way around that discomfort of being a beginner. The process of acquiring self-confidence is gradual--it doesn't happen overnight. But there are ways to chip away at the margins of those inhibitive feelings to help you clear them, ie. by lowering the courage and perseverance you must summon. This is not an exhaustive list, but it includes the ones I've found effective. 
+It's easy for me to say "build competence and the confidence will come". It's harder for me to prescribe how to break out of the feelings of low confidence, anxiety, and passivity. There's no way around that discomfort of being a beginner. The process of acquiring self-confidence is gradual---it doesn't happen overnight. But there are ways to chip away at the margins of those inhibitive feelings to help you clear them, ie. by lowering the courage and perseverance you must summon. This is not an exhaustive list, but it includes the ones I've found effective. 
 
 #### 1) Accepting the feelings
 
@@ -127,37 +127,33 @@ Plus many more harmful thoughts. Trying to ignore or distract yourself from the 
 
 Given our definition, your confidence varies depending on the domain. You can be confident from developing skill and displaying performance in, say, hacking computers but that doesn't mean you're automatically confident as a ballroom dancer. You don't have a master confidence level that covers every aspect of life, because that would be stupid, and maladaptive from an evolutionary perspective. If your odds of success in one domain don't predict your odds of success in another domain, why then should confidence in one spillover to confidence in the other? 
 
-But there's something magical that happens as you practice more skills, and master more domains: the more confident you become in developing confidence. I call this *meta-confidence*. The more times you are terrified at doing something novel, but suffer through the dip of low confidence, the more confident you become at trying new challenges. I'm not introducing a totally new idea. It's just the formula for self-confidence applied recursively to itself. Through demonstrating your capacity to act, fail, improve, repeat your way to competence at challenging and risky things, you grow your meta-confidence.
+But there's something magical that happens as you practice more skills and master more domains: you become more confident in developing confidence. I call this *meta-confidence*. The more times you are terrified at doing something novel, but suffer through the dip of low confidence, the more confident you become at trying new challenges. I'm not introducing a totally new idea. It's just the formula for self-confidence applied recursively to itself. Through demonstrating your capacity to act, fail, improve, repeat your way to competence at challenging and risky things, you grow your meta-confidence.
 
-This meta-confidence reduces the amount of courage and grit you must channel in a new domain. So consciously recall those past occasions where you successfully navigated the self-doubt, criticism, and failure--even when they're unrelated to the present task. That's why each year, I sign-up for some feat that takes me physically out of my comfort zone. Whether it's doing a century ride (cycling for 100 miles), training as a Navy Seal, or running a half-marathon over trails with 3000 ft of elevation--it's the most sample-efficient way of creating meta-confidence. The memories become proof that I'm capable of adapting and running through walls, making it seamless to slide into the right frame of mind to confront any new challenge. 
+This meta-confidence reduces the amount of courage and grit you must channel in a new domain. So consciously recall those past occasions where you successfully navigated the self-doubt, criticism, and failure---even when they're unrelated to the present task. That's why each year, I sign-up for some feat that takes me physically out of my comfort zone. Whether it's doing a century ride (cycling for 100 miles), training with a Navy Seal, or running a half-marathon over trails with 3000 ft of elevation--it's the most sample-efficient way of creating meta-confidence. The memories become proof that I'm capable of adapting and running through walls, making it seamless to slide into the right frame of mind to confront any new challenge. 
 
 Sidebar: *Is meta-confidence just self-esteem by another name?* Short answer is, I don't know. But intuitively, I can see there being a strong relationship between the two. If a rising meta-confidence leads to further aptitude in more areas, that could increase your belief in your whole value as a human being. I think self-esteem encompasses self-confidence, but because confidence is tightly coupled with competence, I think there's still more to self-esteem.
 
 #### 3) Confidence "borrowing"
 
-When you don't have any piece of evidence of prior success at a task, you can "borrow" it from someone else. The fact this works must be a glitch in the matrix, but you can exploit it. When I face a new challenge, I pattern-match the situation to find somebody like me, or similar, who overcame the same challenge, or a similar one. This role model can be someone you know, but it doesn't have to be. A big reason I feel confident in founding a successful startup eventually, despite having no demonstrated proof, is because there are so many people around me, who are just like me, who have done it.
+When you don't have any piece of evidence of prior success at a task, you can "borrow" it from someone else. The fact this works must be a glitch in the matrix, but you can exploit it. When I face a new challenge, I pattern-match the situation to find somebody similar to me, who overcame the a similar challenge. This role model can be someone you know, but it doesn't have to be. A big reason I feel confident in founding a successful startup eventually, despite having no demonstrated proof, is because there are so many people around me, who are just like me, who have done it.
 
 #### 4) Preparation and process
 
-Planning and preparation before a risky undertaking can help--but to a point. It can easily become an excuse for inaction, but in moderation, it can help assuage the FUD just enough so that it's no longer a blocker for action. For example, preparing a script and having a few conversation starters helps me feel comfortable when cold-calling potential customers. I might not use them, but having them helps me feel confident enough to make the calls. I have to be mindful of the trap of avoidance though, where I'm endlessly perfecting my preparation to avoid executing.
+Planning and preparation before a risky undertaking can help---but to a point. It can easily become an excuse for inaction, but in moderation, it can help assuage the FUD just enough so that it's no longer a blocker for action. For example, preparing a script and having a few conversation starters helps me feel comfortable when cold-calling potential customers. I might not use them, but having them helps me feel confident enough to make the calls. I have to be mindful of the trap of avoidance though, where I'm endlessly perfecting my preparation to avoid executing.
 
 #### 5) Fake it (a little)
 
 You can’t fake true confidence for very long, but you can employ tricks to give your brain a short burst of confidence. Sounds corny, but certain power poses have been shown to empirically work. I feel marginally more confident when I fix my posture, and stand tall with my shoulders back and chest open. Behaving as if I'm already confident, like speaking clearly, maintaining eye contact, and smiling, has shown to feed back into my emotions, helping me feel more self-assured. Research and experiment to find hacks that work for you, like "dressing for success". But remember, these aren't substitutes for building real self-confidence, they just help you start the process of iterative improvement to gaining confidence. 
 
-#### 6) Controlled substances
-
-This is not an endorsement. Experiment at your own risk.
-
-#### 7) Momentum
+#### 6) Momentum
 
 Don't underestimate the power of small wins, especially at the beginning.
 
-If the challenge feels daunting, see if you can break it down into smaller, manageable steps. Start with something lower-risk that feels achievable, and gradually raise the stakes as your confidence grows. For example, 6 years ago, I started cycling long distances. I had zero prior experience but the goal was to complete a century-ride (100 miles) in under eight hours, while climbing 10K ft of elevation. I've always been a well-rounded athlete, but whenever I decide to pursue a new fitness challenge, I start small. *Really small*. If I remember correctly, I started training each day by riding for an embarrassing 20 minutes, on flat routes. That's it. But that was enough to build momentum. I would slowly raise the difficulty by micro-increments, eg. from 20 minutes to 25 minutes. Each small win was evidence of a bump in competence, and over time, those small wins compounded into big confidence, which helped me conquer my original goal.
+If the challenge feels daunting, see if you can break it down into smaller, manageable steps. Start with something lower-risk that feels achievable, and gradually raise the stakes as your confidence grows. For example, 6 years ago, I started cycling long distances. I had zero prior experience but the goal was to complete a century-ride (100 miles) in under eight hours, while climbing 10K ft of elevation. I've always been a well-rounded athlete, but whenever I decide to pursue a new fitness challenge, I start small. *Really small*. If I remember correctly, I started training each day by riding for an 20 minutes, on flat routes. That's it. But that was enough to build momentum. I would slowly raise the difficulty by micro-increments, eg. from 20 minutes to 25 minutes. Each small win was evidence of a bump in competence, and over time, those small wins compounded into big confidence, which helped me conquer my original goal.
 
-This example highlights another important lesson: Don't immediately try to be a hero and fight the final boss on max. difficulty. Dialing up the difficulty level too high too quickly is a surefire way of discouraging yourself from persevering. Early in the confidence-building process, your don't have a lot of currency in the bank and missing an over-ambitious target is like sending your bank balance deep into the negative. So be measured about building and sustaining momentum, so that you don't lose confidence and quit.
+This example highlights another important lesson: Don't immediately try to be a hero and fight the final boss on max. difficulty. Dialing up the difficulty level too high too quickly is a surefire way of discouraging yourself from persevering. Early in the confidence-building process, you don't have a lot of currency in the bank and missing an over-ambitious target is like sending your bank balance deep into the negative. So be measured about building and sustaining momentum, so that you don't lose confidence and quit.
 
-#### 8) Growth mindset and re-framing
+#### 7) Growth mindset and re-framing
 
 The last suggestion I'll make is not an instant fix. Like meta-confidence, it takes time to develop. But the best thing you can do to procure durable courage and perseverance is to adopt a *growth mindset*. I know this is a hackneyed idea, co-opted by every corporation in America as a cultural value. But goddammit, it works. In a growth mindset, you only need to believe two things:
 
@@ -170,7 +166,9 @@ So figure out how you can internalize a growth mindset. One thing that's worked 
 
 ## Maintaining self-confidence
 
-So once you've survived the crucible to gain self-confidence in a domain, you've got it forever...right? Typically, no. But it depends on the skill. Remember, confidence evolved as a mental tool to reflect our current competence. So if a skill atrophies, your confidence will decrease in proportion. But if you maintain or build the skill, your confidence won't deplete. Fortunately, the same techniques for skill development that I've described, that help us gain self-confidence, are the same techniques we can use to preserve it. 
+So once you've survived the crucible to gain self-confidence in a domain, you've got it forever...right? Typically, no. But it depends on the skill. Remember, confidence evolved as a mental tool to reflect our current competence. So if a skill atrophies, your confidence will decrease in proportion. But if you maintain or build the skill, your confidence won't deplete. Fortunately, the same techniques for skill development that I've described, that help us gain self-confidence, are the same techniques we can use to preserve it.
+
+Sometimes though, your ego can may hold onto a confidence that’s no longer grounded in reality. There's a funny anecdote from the growth years of Facebook (before it was Meta). This was well-after Facebook moved out of a Harvard dorm, and they graduated to a mature company with an official HQ. Mark Zuckerberg's programming days were well behind him, but his ego hadn't quite caught up to the fact that he was no longer the best coder in the room. One day, during a discussion with the engineering team, Zuckerberg insisted on personally fixing a particularly tricky bug in the system. He was struggling. It didn’t take long for the team to realize that his skills, once cutting-edge, were now outdated compared to even junior engineers. I'm sure that was a humbling experience for him. So be skeptical when your confidence in a domain persists, despite not practicing, and be open to recalibrating based on new feedback. 
 
 ## Conclusion
 
