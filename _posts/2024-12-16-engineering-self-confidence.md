@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Engineering Self-Confidence 😎
-draft: true
+draft: false
 ---
 
 > Confidence doesn't come out of nowhere. It's a result of something...hours and days and weeks and years of constant work and dedication
