@@ -257,6 +257,51 @@ blockquote p {
   text-decoration: underline;
 }
 
+.faq-container {
+  margin: 25px 0;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid #dee2e6;
+  position: relative;
+  transition: 0.3s;
+}
+
+.faq-question:hover {
+  background-color: #777;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.faq-question.active::after {
+  content: '-';
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
 /* Thanks for Subscribing Styles */
 
 .thanks {

@@ -45,6 +45,28 @@
       </div>
     </footer>
   </div>
+  <script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        const isOpen = answer.classList.contains('show');
+
+        // Close all answers
+        document.querySelectorAll('.faq-answer').forEach(ans => {
+          ans.classList.remove('show');
+        });
+        document.querySelectorAll('.faq-question').forEach(q => {
+          q.classList.remove('active');
+        });
+
+        // Open clicked answer if it was closed
+        if (!isOpen) {
+          answer.classList.add('show');
+          question.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
