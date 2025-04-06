@@ -8,6 +8,8 @@ draft: true
 
 ...
 
+***
+
 ## Intro
 
 People get frustrated when they ask me about my opinion about something because the majority of the time, I don't have an opinion to share. 
