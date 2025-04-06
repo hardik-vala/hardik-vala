@@ -13,7 +13,7 @@ export default function Posts() {
             <li key={post.slug}>
               <div className="flex flex-row gap-8">
                 <span className="w-[25%] md:w-[20%] lg:w-[15%] text-gray-400 text-sm text-right">
-                {post.date.toLocaleDateString("en-US", {
+                {new Date(post.date).toLocaleDateString("en-US", {
                   month: "short",
                   year: "numeric",
                 })}
