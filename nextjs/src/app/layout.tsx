@@ -1,7 +1,8 @@
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from "next";
-import { Roboto, Literata } from "next/font/google";
+import { Literata, Roboto } from "next/font/google";
 import "./globals.css";
 
 // const geistSans = Geist({
@@ -51,6 +52,7 @@ export default function RootLayout({
             </header>
             <main>{children}</main>
             <Footer />
+            <Analytics />
           </div>
         </div>
       </body>
