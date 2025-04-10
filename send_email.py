@@ -12,16 +12,14 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
-SUBJECT = "Engineering Self-Confidence 😎"
-LINK = "https://hardikvala.com/2024/12/16/engineering-self-confidence.html"
+SUBJECT = "❓ There will always be doubt"
+LINK = "https://www.hardikvala.com/blog/there-will-always-be-doubt"
 BODY = f"""
     <html>
         <body>
             <p>Hey,</p>
 
-            <p>I'm emailing you from a different email to automate sending. Up until now, I've been sending each email manually. It's less personal, but I need to rescue some of my time from toil.</p>
-            
-            <p>Here's my new essay: <a href="{LINK}">{SUBJECT}</a>.</p>
+            <p>It's been a while. My latest post contains a short life update: <a href="{LINK}">{SUBJECT}</a>.</p>
 
             <p>You're receiving this because you made the poor decision to join my inner circle. But thanks for being a part of it.</p>
 
