@@ -12,6 +12,7 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
+REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
 SUBJECT = "❓ There will always be doubt"
 LINK = "https://www.hardikvala.com/blog/there-will-always-be-doubt"
 BODY = f"""
@@ -37,7 +38,7 @@ def send_emails(from_email: str, to_emails: List[str]) -> None:
     for recipient in to_emails:
         try:
             response = resend.Emails.send(
-                {"from": from_email, "to": recipient, "subject": SUBJECT, "html": BODY}
+                {"from": from_email, "to": recipient, "reply_to": REPLY_TO_EMAIL, "subject": SUBJECT, "html": BODY}
             )
             print(f"Email sent successfully to {recipient}. ID: {response['id']}")
         except Exception as e:
