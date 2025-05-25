@@ -1,11 +1,17 @@
 .env
 
+# contentlayer
+.contentlayer/
+
 # Github
 Gemfile.lock
 
 # Jekyll
 .jekyll-cache
 _site/
+
+# Node
+node_modules
 
 # Python
 .venv/

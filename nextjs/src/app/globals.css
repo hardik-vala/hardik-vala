@@ -8,12 +8,110 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-roboto: var(--font-roboto);
+  --font-sans: var(--font-roboto);
+  --font-mono: var(--font-roboto-mono);
+  --font-serif: var(--font-literata);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-roboto), sans-serif;
+}
+
+/* Markdown/Prose Styles */
+.prose {
+  letter-spacing: -0.025em;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.prose > h1,
+.prose > h2,
+.prose > h3,
+.prose > h4 {
+  font-family: var(--font-literata), serif;
+}
+
+.prose > h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prose > h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prose > h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose > h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.prose > p {
+  margin-bottom: 1rem;
+  line-height: 1.625;
+  font-weight: 300;
+}
+
+.prose > p > strong,
+.prose > em > strong {
+  font-weight: 700;
+}
+
+.prose > ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose > ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose > ol > li + li {
+  margin-top: 0.5rem;
+}
+
+.prose li > a,
+.prose p > a {
+  text-decoration: underline;
+}
+
+.prose > blockquote {
+  border-left: 4px solid #6b7280;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  color: #9ca3af;
+}
+
+.prose > hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
