@@ -21,7 +21,7 @@ body {
 
 /* Markdown/Prose Styles */
 .prose {
-  letter-spacing: -0.025em;
+  color: #cdcdcd;
   font-family: var(--font-roboto), sans-serif;
 }
 
