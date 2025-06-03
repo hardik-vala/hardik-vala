@@ -13,14 +13,16 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "❓ There will always be doubt"
-LINK = "https://www.hardikvala.com/blog/there-will-always-be-doubt"
+SUBJECT = "🚫 Pathological Demand Avoidance"
+LINK = "https://www.hardikvala.com/blog/pathological-demand-avoidance"
 BODY = f"""
     <html>
         <body>
             <p>Hey,</p>
 
-            <p>It's been a while. My latest post contains a short life update: <a href="{LINK}">{SUBJECT}</a>.</p>
+            <p>I've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
+
+            <p>It's about preserving personal autonomy through unhealthy avoidance.</p>
 
             <p>You're receiving this because you made the poor decision to join my inner circle. But thanks for being a part of it.</p>
 
@@ -33,8 +35,6 @@ BODY = f"""
 
 
 def send_emails(from_email: str, to_emails: List[str]) -> None:
-    # style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;"
-
     for recipient in to_emails:
         try:
             response = resend.Emails.send(
