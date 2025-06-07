@@ -43,6 +43,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   if (post) {
     return {
       title: `${post.title}`,
+      description: "Hardik Vala: Technical founder. Logos because I'm insecure: YC S23, ex-Google, ex-Apple.",
     };
   }
 }
