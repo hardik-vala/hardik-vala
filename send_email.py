@@ -13,8 +13,8 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "🚫 Pathological Demand Avoidance"
-LINK = "https://www.hardikvala.com/blog/pathological-demand-avoidance"
+SUBJECT = "🍜 What dinner at a ramen restaurant taught me about why I chose entrepreneurship"
+LINK = "https://www.hardikvala.com/blog/what-dinner-at-a-ramen-restaurant-taught-me-about-why-i-chose-entrepreneurship"
 BODY = f"""
     <html>
         <body>
@@ -22,7 +22,7 @@ BODY = f"""
 
             <p>I've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
 
-            <p>It's about preserving personal autonomy through unhealthy avoidance.</p>
+            <p>It's about the motivations for entrepreneurship, told through a cute anecdote.</p>
 
             <p>You're receiving this because you made the poor decision to join my inner circle. But thanks for being a part of it.</p>
 
