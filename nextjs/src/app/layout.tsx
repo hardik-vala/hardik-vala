@@ -39,7 +39,6 @@ export default function RootLayout({
 }>) {
   const navigationItems = [
     { name: "Blog", link: "/blog" },
-    { name: "AI Stuff", link: "https://www.informationga.in/" },
     { name: "Projects", link: "/projects" },
   ];
 
