@@ -12,7 +12,7 @@ export default function Posts() {
         <ul className="space-y-2">
           {posts.map((post) => (
             <li key={post.slug}>
-              <div className="flex flex-row gap-4">
+              <div className="flex flex-row gap-4 items-center">
                 <span className="w-[25%] md:w-[20%] lg:w-[15%] text-gray-400 text-sm text-right">
                   {new Date(post.date).toLocaleDateString("en-US", {
                     month: "short",
@@ -22,11 +22,11 @@ export default function Posts() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="w-[75%] md:w-[80%] lg:w-[85%] font-semibold hover:underline"
+                  className="w-[75%] md:w-[80%] lg:w-[85%] hover:underline"
                 >
                   {post.title}
                   {post.tag && (
-                    <span className="inline-block bg-yellow-200 text-gray-700 px-1 py-1 rounded-md text-xs font-medium ml-2">
+                    <span className="inline-block bg-amber-200 text-gray-700 px-1 py-1 rounded-sm text-xs font-medium ml-2">
                       #{post.tag}
                     </span>
                   )}
