@@ -71,12 +71,7 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="border border-white p-4 text-center">
-      <h2 className="text-lg font-bold mb-2.5">Join my inner circle</h2>
-      <p className="text-sm mb-5">
-        Be the first to hear about anything I publish, launch, or think is
-        helpful for you.
-      </p>
+    <div className="p-2 md:p-16 lg:p-32 text-center">      
       {isSubmitting ? (
         <p className="text-base font-bold mb-7">Subscribing...</p>
       ) : (
