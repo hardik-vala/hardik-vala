@@ -115,3 +115,22 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.prose > table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-weight: 300;
+  border: 0.5px solid #b0b4ba;
+}
+
+.prose > table th,
+.prose > table td {
+  border: 0.5px solid #b0b4ba;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.prose > table th {
+  font-weight: 400;
+}
