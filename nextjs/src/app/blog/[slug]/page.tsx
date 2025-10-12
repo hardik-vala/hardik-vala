@@ -40,10 +40,37 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { slug } = await params;
   const post = allPosts.find((p) => p.slug === slug);
 
+  const description =
+    post?.description ||
+    "hardik vala: technical founder (yc s23, ex-google, ex-apple)";
+
   if (post) {
     return {
       title: `${post.title}`,
-      description: "Hardik Vala: Technical founder. Logos because I'm insecure: YC S23, ex-Google, ex-Apple.",
+      description: description,
+      openGraph: {
+        title: post.title,
+        description,
+        siteName: "hardik vala",
+        images: [
+          {
+            url: post.image,
+            alt: post.alt || post.title,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description,
+        creator: "@TheHardikVala",
+        images: [
+          {
+            url: post.image,
+            alt: post.alt || post.title,
+          },
+        ],
+      },
     };
   }
 }
