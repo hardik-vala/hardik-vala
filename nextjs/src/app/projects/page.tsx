@@ -1,5 +1,5 @@
-import Image from "next/image";
 import PageLayout from "@/components/PageLayout";
+import Image from "next/image";
 
 interface Project {
   year: string;
@@ -11,7 +11,15 @@ interface Project {
 
 const projects: Project[] = [
   {
-    year: "Ongoing",
+    year: "2025",
+    title: "tensordiagram",
+    description:
+      "Draw tensors from torch, jax, etc., for understanding and debugging",
+    image: "/images/tensordiagram.png",
+    link: "https://github.com/hardik-vala/tensordiagram",
+  },
+  {
+    year: "2025",
     title: "margin.loans (Sold)",
     description:
       "Online education hub for laymen to learn about margin borrowing.",
