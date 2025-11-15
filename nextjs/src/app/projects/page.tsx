@@ -12,6 +12,14 @@ interface Project {
 const projects: Project[] = [
   {
     year: "2025",
+    title: "Tensor Puzzles 2",
+    description:
+      "A sequel to Sasha Rush's Tensor Puzzles, with a new collection of puzzles to train your pytorch tensor programming muscle. ",
+    image: "/images/tensor_puzzles_2.png",
+    link: "https://github.com/hardik-vala/Tensor-Puzzles-2",
+  },
+  {
+    year: "2025",
     title: "tensordiagram",
     description:
       "Draw tensors from torch, jax, etc., for understanding and debugging",
