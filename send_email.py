@@ -1,11 +1,15 @@
 from dotenv import load_dotenv
 import os
 import resend
+import sys
 import time
 from typing import List
 
-# Load environment variables
-load_dotenv()
+if len(sys.argv) > 1:
+    env_file = sys.argv[1]
+    load_dotenv(env_file)
+else:
+    load_dotenv()
 
 
 resend.api_key = os.getenv("RESEND_API_KEY")
@@ -13,8 +17,8 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "👷 Superbuilders"
-LINK = "https://www.hardikvala.com/blog/superbuilder"
+SUBJECT = "⛰️ stick or quit: a manual"
+LINK = "https://www.hardikvala.com/blog/stick-or-quit-manual"
 BODY = f"""
     <html>
         <body>
@@ -22,9 +26,9 @@ BODY = f"""
 
             <p>I've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
 
-            <p>It's about how technology startups demand a certain kind of technical founder: the <i>superbuilder</i>.</p>
+            <p>It's a guide I've built up over time for navigating stick or quit decisions.</p>
 
-            <p>You're receiving this because you made the poor decision to join my inner circle. But thanks for being a part of it.</p>
+            <p>You're receiving this because you made the poor decision to subscribe to my blog. But thanks for being a part of the journey.</p>
 
             <p>Onward and upward,</p>
 
