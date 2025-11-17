@@ -15,7 +15,8 @@ const projects: Project[] = [
     title: "qaggle (company)",
     description:
       "Teaching humans to teach machines.",
-    image: "/images/matmuth.png",
+    // image: "/images/matmuth.png",
+    image: "/images/qaggle.png",
     link: "https://qaggle.com",
   },
   {
