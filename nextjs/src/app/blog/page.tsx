@@ -42,6 +42,6 @@ export default function Posts() {
 
 export async function generateMetadata() {
   return {
-    title: "Blog | Hardik Vala",
+    title: "blog | hardik",
   };
 }
