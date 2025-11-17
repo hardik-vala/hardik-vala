@@ -4,6 +4,7 @@ import React from 'react';
 interface NavigationItem {
   name: string;
   link: string;
+  target?: string;
 }
 
 interface NavigationProps {
@@ -19,7 +20,7 @@ export default function Navigation({ navigationItems }: NavigationProps) {
       <ul className="flex list-none">
         {navigationItems.map((item, index) => (
           <li key={index} className="mr-5">
-            <Link href={item.link} className="no-underline">
+            <Link href={item.link} className="no-underline" target={item.target}>
               {item.name}
             </Link>
           </li>

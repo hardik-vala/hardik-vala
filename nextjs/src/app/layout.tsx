@@ -39,6 +39,7 @@ export default function RootLayout({
 }>) {
   const navigationItems = [
     { name: "Blog", link: "/blog" },
+    { name: "Company", link: "https://qaggle.com", target: "_blank" },
     { name: "Projects", link: "/projects" },
   ];
 
