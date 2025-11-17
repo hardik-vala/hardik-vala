@@ -71,7 +71,7 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="p-2 md:p-16 lg:p-32 text-center">      
+    <div className="p-2 md:p-8 lg:p-16 text-center">      
       {isSubmitting ? (
         <p className="text-base font-bold mb-7">Subscribing...</p>
       ) : (
