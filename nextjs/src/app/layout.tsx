@@ -28,8 +28,8 @@ const literata = Literata({
 });
 
 export const metadata: Metadata = {
-  title: "Hardik Vala",
-  description: "Technical founder. YC S23, ex-Google, ex-Apple.",
+  title: "hardik",
+  description: "founder @ qaggle.com",
 };
 
 export default function RootLayout({
