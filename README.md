@@ -1,3 +1,2 @@
-founder @ [qaggle](https://qaggle.com) + one over one inc
-
+curr: founder
 prev: yc s23, ml eng @ google, apple
