@@ -12,14 +12,6 @@ interface Project {
 const projects: Project[] = [
   {
     year: "2025",
-    title: "qaggle (company)",
-    description:
-      "Teaching humans to teach machines.",
-    image: "/images/qaggle.png",
-    link: "https://qaggle.com",
-  },
-  {
-    year: "2025",
     title: "Tensor Puzzles 2",
     description:
       "A sequel to Sasha Rush's Tensor Puzzles, with a new collection of puzzles to train your pytorch tensor programming muscle. ",
