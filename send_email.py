@@ -17,8 +17,8 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "⛰️ stick or quit: a manual"
-LINK = "https://www.hardikvala.com/blog/stick-or-quit-manual"
+SUBJECT = "💀 a dangerous truth"
+LINK = "https://www.hardikvala.com/blog/a-dangerous-truth"
 BODY = f"""
     <html>
         <body>
@@ -26,7 +26,7 @@ BODY = f"""
 
             <p>I've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
 
-            <p>It's a guide I've built up over time for navigating stick or quit decisions.</p>
+            <p>It's about a fascinating but disturbing fact about the human mind.</p>
 
             <p>You're receiving this because you made the poor decision to subscribe to my blog. But thanks for being a part of the journey.</p>
 
