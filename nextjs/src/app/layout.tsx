@@ -51,7 +51,9 @@ export default function RootLayout({
               <Navigation navigationItems={navigationItems} />
             </header>
             <main>{children}</main>
-            <Footer />
+            <div className="mb-4">
+              <Footer />
+            </div>
             <Analytics />
           </div>
         </div>
