@@ -25,11 +25,6 @@ export default function Posts() {
                   className="w-[75%] md:w-[80%] lg:w-[85%] hover:underline"
                 >
                   {post.title}
-                  {post.tag && (
-                    <span className="inline-block bg-amber-200 text-gray-700 px-1 py-1 rounded-sm text-xs font-medium ml-2">
-                      #{post.tag}
-                    </span>
-                  )}
                 </Link>
               </div>
             </li>
