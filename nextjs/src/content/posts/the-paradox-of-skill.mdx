@@ -1,0 +1,78 @@
+---
+title: "the paradox of skill"
+date: 2026-05-20
+---
+
+let's say you're hiring for a role, and you have a pool of candidates who have applied. naturally, you want to find the most skilled person amongst the candidates and offer them the job. to find them, you devise a series of assessments and interviews that test for the skills you care about. after administering these tests, you would expect the best person for the job to be the one that measures the highest on the tests. of course, this is not the case if the evaluations are poorly designed, but let's assume for the sake of argument that they are. then, you should be able to identify the best candidate, but reliably doing so depends on the _distribution_ of skill across the pool.
+
+for example, if the size of your pool was two, and candidate A was much more skilled than candidate B, then your testing scheme should easily identify candidate A as the superior one. but if candidate A only had a slight edge over candidate B, then it would be much harder to isolate that. _why?_ well, it's partly because the tests themselves are not perfect, and you can improve your methodology, but you can never eliminate all the error. it's also because as the skill levels get closer, the outcome becomes more effected by that error, or _noise_--the randomness that impacts measurement, e.g. the interviewer's mood that day, getting asked an obscure question, etc.
+
+this strange phenonmenon is known as the _paradox of skill_:
+
+> as the skill level of a group increases, the outcome of any competition among them becomes more dependent on chance, and less a function of skill.
+
+this is because as skill levels get closer, the noise in the measurement becomes more significant relative to the differences in skill. this concept was popularized by Michael Mauboussin (author of _The Success Equation_, a good read), and even though it's stated in terms of increasing skill, it applies just as well to any situation where the distribution of skill becomes more compressed, e.g. if the skills levels are all very low, then the outcome is also influenced more by chance. but in the real world, we often observe this effect with rising (not falling) average performance in competitive fields, so that's the context i'll focus on.
+
+## demonstration
+
+i'm sure there's a way to ground this idea in statistical theory, but i don't have the chops to do that. instead, i'll explain it with some fun simulations.
+
+let's switch to a simpler example: a freethrow shooting contest. it works like this: each player gets 100 shots, and the one that makes the most shots, wins. easy. let's look at a single participant, player A. we can model their performance as a normal distribution, where the mean (μ) is the average number of shots they make in 100 attempts, and the standard deviation (σ) measures how much their performance varies across games.
+
+<SinglePlayerDistribution />
+
+when you have multiple players, each will have their own normal distribution. for our first scenario, let's pick four players with widely varying skill levels (e.g. from a casual shooter to an elite one).
+
+<MultiPlayerDistribution scenario="spread" />
+
+in this case, the distributions are nicely separated, i.e. the _skill levels are spread out_. if you were to repeat the same contest among these players over and over again, you'd expect player D to win most of the time, player C to win some of the time, players A and B to win rarely. the outcome would mostly be determined by skill. we can verify this by running a simulation of 1000 games:
+
+<FreethrowSimulation scenario="spread" />
+
+you'd be hard pressed to find a scenario where player D doesn't win the majority of games by a large margin.
+
+now let's consider what happens when the player distributions are closer together.
+
+<MultiPlayerDistribution scenario="compressed" />
+
+the ranking of players by skill is unchanged (player D still has a higher average than player C, who has a higher average than player B, etc.), but now the curves overlap heavily — the means are bunched between 84 and 90. what happens when we run the same simulation of 1000 games?
+
+<FreethrowSimulation scenario="compressed" />
+
+players D still wins most of the time, but now player C wins a lot more often, and players A and B also win a non-negligible number of games. this is intuitive but also strange at the same time..._why is there more randomness in the outcome_, even though the skill ordering of players hasn't changed?
+
+i've been using the term "skill" loosely so far, so let me make it more precise: skill is a _latent variable_, meaning it's not directly observable. we can't know a player's "true" skill, so we do our best to estimate it. in this case, we are using the player's historical performance as a proxy for their skill, e.g. the distribution of their scores across many games they've competed in. the mean of that distribution is just a way to summarize this proxy as a single number.
+
+so when i say that player D is more skilled than player C, i mean player D's performance curve has a higher mean than player C's curve. so from the first to second scenario, the ordering of player's means is unchanged, but the _relative_ distance between the means has shrunk. and when there's lower distance between the means, the _variance_ in the scores / measurements become more significant in determining the outcome.
+
+we can see this visually by considering just two players. the shaded region represents the probability of player C upsetting the superior player D. as the means get closer together, the region swells, and the probability of the weaker player winning climbs toward 50%. the fact that the region even exists is because of the variance in the scores (if variance was zero, then the curves would be spikes, and the superior player would always win).
+
+<DistributionOverlap />
+
+that's why the outcome depends more on chance in the second scenario. it's because the distribution averages are closer together.
+
+but _why do we have any variance at all?_ well, that's because we're measuring skill with an imperfect process. these imperfections arise from _noise_, various factors that are not related to skill but can still impact outcomes. even for a controlled environment for freethrow shooting, performance is going to be affected by subtle factors like how much air is in the ball, the level of humidity in the gym, the player's fatigue level, etc. these factors are what make the measurement, i.e. the outcome of each content, more random. and this is important to understand:
+
+> there will always be inevitable noise in any estimation based on real-world measurements.
+
+this noise that produces the variance in data is what we colloquially refer to as _luck_. so we can treat variance as a way to quantify luck.
+
+one more thing about this variance: it's not just a property of the individuals, but also of the measurement process itself. in other words, the variance is not just inherent to the players, but also a property of the competition. in any competition, different participants can exhibit different levels of variance in their performance. meaning one player might perform more or less consistently than another. but usually, the variance is relatively constant across players, and it's more a property of the estimation process itself (even though it shows up in the data as variance in each individual distribution). freethrow shooting is pretty constrained, so the variance will be much lower than a basketball game, or interviewing for a job. so the impact of luck differs across domains, and is intrinsically tied to the domain and not the individuals.
+
+as a final demonstration, let's look at how the spread of skill and level of variance / luck can impact the outcome of our freethrow contest.
+
+<SkillvsLuckSimulation />
+
+as we vary the spread and variance, we can see that skill is still a factor. but as the spread decreases, the outcome of any one contest is more influenced by chance. this effect is more pronounced when the variance is higher, but it still exists even when the variance is low. in the extreme case, where the skill spread is zero, then the outcome is purely random (no matter the luck value). each player would win about 25% of the time. this makes sense because if players are all equally skilled, then the outcome is as good as random.
+
+in actual competitive domains, the skill levels of participants naturally rise over time, but the spread of skill tends to shrink. this is typically because lower skilled participants either drop out or improve their skills faster than the top performers. and as our simulations show, this leads to more randomness in the outcome of competitions. this is the paradox of skill.
+
+## examples
+
+claude helped me find this real-world example:
+
+In the early years of the World Series of Poker Main Event, the field was tiny and repeat champions were common — Doyle Brunson won back-to-back in 1976-77, Johnny Chan in 1987-88, and Stu Ungar won three times total (1980, 1981, and 1997). as the field exploded from a handful of players to nearly 10,000 entrants, and the average skill level rose sharply, repeat winners became exceedingly rare. only four players have won the Main Event more than once across the entire 55-year history — and almost all of those came from the early, low-competition era. in recent times, a new name wins every single year, and the "best" players regularly bust out in the middle rounds. when everyone is a skilled, trained professional, luck starts to dominate.
+
+a more relatable example:
+
+if you've ever been on the job hunt, then you know that the process can be pretty random, _especially_ at competitive tech companies — like FAANG and OpenAI/Anthropic. sometimes, you bomb an interview because the interviewer probed the one gap in your preparation, or the chemistry just wasn't there, which of course is not a reflection of your talent. but sometimes you feel like you got lucky, because you happened to get tested on something you were really good at, or you passed an interview even though you thought you did poorly. when the competition is fierce, relative skill differences vanish and random factors can play a big role: which interviewer you get, ther order in which you're seen, whether the questions you get match your preparation, etc. unlike sports though, where the outcomes of competitions are readily quantifiable, there's an added source of randomness from the "ruler" itself because interviews don't have a clear metric for success.

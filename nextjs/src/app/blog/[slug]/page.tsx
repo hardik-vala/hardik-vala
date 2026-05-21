@@ -1,8 +1,21 @@
 import PageLayout from "@/components/PageLayout";
+import DistributionOverlap from "@/components/the-paradox-of-skill/DistributionOverlap";
+import FreethrowSimulation from "@/components/the-paradox-of-skill/FreethrowSimulation";
+import MultiPlayerDistribution from "@/components/the-paradox-of-skill/MultiPlayerDistribution";
+import SinglePlayerDistribution from "@/components/the-paradox-of-skill/SinglePlayerDistribution";
+import SkillvsLuckSimulation from "@/components/the-paradox-of-skill/SkillvsLuckSimulation";
 import { calculateReadingTimeInMinutes } from "@/lib/utils";
 import { allPosts } from "contentlayer/generated";
 import { useMDXComponent } from "next-contentlayer2/hooks";
 import { notFound } from "next/navigation";
+
+const mdxComponents = {
+  SinglePlayerDistribution,
+  MultiPlayerDistribution,
+  FreethrowSimulation,
+  SkillvsLuckSimulation,
+  DistributionOverlap,
+};
 
 type Params = Promise<{ slug: string }>;
 
@@ -33,7 +46,7 @@ export default async function PostPage({ params }: { params: Params }) {
 // Cannot call useMDXComponent in an async function.
 function MDXContent({ code }: { code: string }) {
   const MDXComponent = useMDXComponent(code);
-  return <MDXComponent />;
+  return <MDXComponent components={mdxComponents} />;
 }
 
 export async function generateMetadata({ params }: { params: Params }) {
