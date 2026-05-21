@@ -17,22 +17,22 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "💀 a dangerous truth"
-LINK = "https://www.hardikvala.com/blog/a-dangerous-truth"
+SUBJECT = "the paradox of skill"
+LINK = "https://www.hardikvala.com/blog/the-paradox-of-skill"
 BODY = f"""
     <html>
         <body>
-            <p>Hey,</p>
+            <p>hey,</p>
 
-            <p>I've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
+            <p>i've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
 
-            <p>It's about a fascinating but disturbing fact about the human mind.</p>
+            <p>it's about a phenomenon i find fascinating, called the paradox of skill. basically, it's the idea that in any competition where the players are becoming more skilled, who wins—counterintuitively—depends more and more on luck. ya, luck—not skill. it doesn't just apply to traditional competitions like sports, but to college admissions, dating, and job hunting. this one's a bit technical so brace yourself.</p>
 
-            <p>You're receiving this because you made the poor decision to subscribe to my blog. But thanks for being a part of the journey.</p>
+            <p>you're receiving this because you made the poor decision to subscribe to my blog. but thanks for being a part of the journey.</p>
 
-            <p>Onward and upward,</p>
+            <p>onward and upward,</p>
 
-            <p>Hardik</p>
+            <p>hardik</p>
         </body>
     </html>
     """.strip()
