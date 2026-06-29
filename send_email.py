@@ -17,8 +17,8 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 FROM_EMAIL = os.getenv("FROM_EMAIL")
 TO_EMAILS = os.getenv("TO_EMAILS", "").split(",")
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", FROM_EMAIL)
-SUBJECT = "the paradox of skill"
-LINK = "https://www.hardikvala.com/blog/the-paradox-of-skill"
+SUBJECT = "hardik's user manual for work (v2)"
+LINK = "https://www.hardikvala.com/blog/hardiks-user-manual-work-v2"
 BODY = f"""
     <html>
         <body>
@@ -26,9 +26,9 @@ BODY = f"""
 
             <p>i've published a new post: <a href="{LINK}">{SUBJECT}</a>.</p>
 
-            <p>it's about a phenomenon i find fascinating, called the paradox of skill. basically, it's the idea that in any competition where the players are becoming more skilled, who wins—counterintuitively—depends more and more on luck. ya, luck—not skill. it doesn't just apply to traditional competitions like sports, but to college admissions, dating, and job hunting. this one's a bit technical so brace yourself.</p>
+            <p>it's not really a post. it's my personal user manual. i've had one for years, sharing it with people i've work with. i have no clue whether anybody acts on the information, let alone reads it. but at minimum, it's a great, reflective exercise in self-awareness. messaging you to encourage you to try writing one for yourself.</p>
 
-            <p>you're receiving this because you made the poor decision to subscribe to my blog. but thanks for being a part of the journey.</p>
+            <p>you're receiving this because you made the poor decision to subscribe to my blog. but thanks for being a part of my journey.</p>
 
             <p>onward and upward,</p>
 
